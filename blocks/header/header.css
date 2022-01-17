@@ -1,0 +1,14 @@
+.header {
+    height: 74px;
+    margin: 0 0 40px 0;
+    border-bottom: 1px solid #545454;
+    box-sizing: border-box;
+}
+
+@media all and (max-width: 620px) {
+    .header {
+        max-width: 620px;
+        height: 56px;
+        margin: 0 -19px 42px -19px;
+    }
+} 
