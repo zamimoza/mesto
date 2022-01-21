@@ -5,13 +5,15 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    background-color: white;
     overflow: visible;
     border: none;
     padding: 0;
+    margin: 0 5px 0 0;
     opacity: 1;
     cursor: pointer;
 }
 
-.elements__like:hover{
+.elements__like:hover {
     opacity: 0.6;
 }

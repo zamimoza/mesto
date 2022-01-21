@@ -4,10 +4,11 @@
     height: 27px;
     font-family: 'Inter', 'Arial', sans-serif;
     font-size: 14px;
-    line-height: 16,94px;
+    line-height: 16.94px;
     font-weight: 400;
     font-style: normal;
     border: none;
     border-bottom: 1px solid rgb(0, 0, 0, 0.2);
     padding-bottom: 13px;
+    box-sizing: border-box;
 }

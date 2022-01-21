@@ -7,15 +7,17 @@
     font-size: 18px;
     font-weight: normal;
     font-style: normal;
-    line-height: 21,78px;
+    line-height: 21.78px;
     border-radius: 2px;
+    border-style: none;
     text-align: center;
     opacity: 1;
     cursor: pointer;
+    box-sizing: border-box;
 }
 
 .popup__button:hover {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 @media all and (max-width: 880px) {
@@ -23,6 +25,6 @@
         width: 238px;
         height: 46px;
         font-size: 14px;
-        line-height: 16,94px;
+        line-height: 16.94px;
     }
-} 
+}

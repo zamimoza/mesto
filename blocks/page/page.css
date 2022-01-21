@@ -9,11 +9,10 @@
     margin: 0 auto 0 auto;
     justify-content: center;
     font-family: 'Inter', 'Arial', sans-serif;
-    overflow-x: hidden;
 }
 
-@media all and (max-width: 620px) {
+@media all and (max-width: 920px) {
     .page {
         padding: 28px 19px 36px 19px;
     }
-} 
+}

@@ -1,4 +1,4 @@
-.popup__container{
+.popup__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,7 +9,7 @@
     padding: 34px 36px 37px 36px;
     text-align: start;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
 }
 
 @media all and (max-width: 880px) {
