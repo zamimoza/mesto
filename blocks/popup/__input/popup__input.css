@@ -1,4 +1,4 @@
-.popup__job {
+.popup__input {
     width: 358px;
     height: 27px;
     font-family: 'Inter', 'Arial', sans-serif;
@@ -7,17 +7,19 @@
     font-weight: 400;
     font-style: normal;
     padding-bottom: 13px;
-    margin: 0 0 48px 0;
     border: none;
     border-bottom: 1px solid rgb(0, 0, 0, 0.2);
     box-sizing: border-box;
 }
 
+.popup__input:focus {
+    outline: none;
+    border: 2px solid rgb(0, 0, 0);  
+    border-radius: 2%; 
+}
+
 @media all and (max-width: 880px) {
-    .popup__job {
+    .popup__input {
         width: 238px;
-        height: 14px;
-        font-size: 18px;
-        line-height: 22px;
     }
 }

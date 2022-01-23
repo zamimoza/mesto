@@ -18,56 +18,55 @@
             <img src="./images/image.jpg" alt="Жак-Ив Кусто" class="profile__avatar">
             <div class="profile__info">
                 <div class="profile__top-line">
-                    <p class="profile__name">Жак-Ив Кусто</p>
-                    <button class="profile__edit-button" type="button"></button>
+                    <h1 class="profile__name">Жак-Ив Кусто</h1>
+                    <button class="profile__edit-button" type="button" aria-label="Редактировать"></button>
                 </div>
                 <p class="profile__job">Исследователь океана</p>
             </div>
-            <button class="profile__add-button" type="button"></button>
+            <button class="profile__add-button" type="button" aria-label="Добавить"></button>
         </section>
 
         <section class="elements">
-            <div class="elements__element">
-                <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск" class="elements__photo">
-                <div class="elements__info">
-                    <p class="elements__photo-info">Карачаевск</p>
-                    <button type="button" class="elements__like"></button>
+            <div class="card">
+                <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаевск" class="card__photo">
+                <div class="card__info">
+                    <h2 class="card__photo-info">Карачаевск</h2>
+                    <button type="button" class="card__like" aria-label="Нравится"></button>
                 </div>
             </div>
-            <div class="elements__element">
-                <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус" class="elements__photo">
-                <div class="elements__info">
-                    <p class="elements__photo-info">Гора Эльбрус</p>
-                    <button type="button" class="elements__like"></button>
+            <div class="card">
+                <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус" class="card__photo">
+                <div class="card__info">
+                    <h2 class="card__photo-info">Гора Эльбрус</h2>
+                    <button type="button" class="card__like" aria-label="Нравится"></button>
                 </div>
             </div>
-            <div class="elements__element">
-                <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай" class="elements__photo">
-                <div class="elements__info">
-                    <p class="elements__photo-info">Домбай</p>
-                    <button type="button" class="elements__like"></button>
+            <div class="card">
+                <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай" class="card__photo">
+                <div class="card__info">
+                    <h2 class="card__photo-info">Домбай</h2>
+                    <button type="button" class="card__like" aria-label="Нравится"></button>
                 </div>
             </div>
-            <div class="elements__element">
-                <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус" class="elements__photo">
-                <div class="elements__info">
-                    <p class="elements__photo-info">Гора Эльбрус</p>
-                    <button type="button" class="elements__like"></button>
+            <div class="card">
+                <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="Гора Эльбрус" class="card__photo">
+                <div class="card__info">
+                    <h2 class="card__photo-info">Гора Эльбрус</h2>
+                    <button type="button" class="card__like" aria-label="Нравится"></button>
                 </div>
             </div>
-            <div class="elements__element">
-                <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай" class="elements__photo">
-                <div class="elements__info">
-                    <p class="elements__photo-info">Домбай</p>
-                    <button type="button" class="elements__like"></button>
+            <div class="card">
+                <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="Домбай" class="card__photo">
+                <div class="card__info">
+                    <h2 class="card__photo-info">Домбай</h2>
+                    <button type="button" class="card__like" aria-label="Нравится"></button>
                 </div>
             </div>
-            <div class="elements__element">
-                <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаево-Черкесск"
-                    class="elements__photo">
-                <div class="elements__info">
-                    <p class="elements__photo-info">Карачаево-Черкесск</p>
-                    <button type="button" class="elements__like"></button>
+            <div class="card">
+                <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="Карачаево-Черкесск" class="card__photo">
+                <div class="card__info">
+                    <h2 class="card__photo-info">Карачаево-Черкесск</h2>
+                    <button type="button" class="card__like" aria-label="Нравится"></button>
                 </div>
             </div>
         </section>
@@ -77,17 +76,17 @@
         <p class="footer__text">&copy; 2020 Mesto Russia</p>
     </footer>
 
-    <section class="popup">
+    <div class="popup">
         <div class="popup__container">
-            <p class="popup__title">Редактировать профиль</p>
+            <h2 class="popup__title">Редактировать профиль</h2>
             <form class="popup__form">
-                <input type="text" class="popup__name" name="name" value="Жак-Ив Кусто">
-                <input type="text" class="popup__job" name="job" value="Исследователь океана">
-                <button type="submit" class="popup__button">Сохранить</button>
+                <input type="text" class="popup__input_name popup__input" name="name" required placeholder="Имя" onfocus="this.value=''">
+                <input type="text" class="popup__input_job popup__input" name="job" required placeholder="О себе" onfocus="this.value=''">
+                <button type="submit" class="popup__save-button">Сохранить</button>
             </form>
-            <button class="popup__cross" type="button"></button>
+            <button class="popup__close-button" type="button" aria-label="Закрыть"></button>
         </div>
-    </section>
+    </div>
 
     <script src="./script/script.js"></script>
 </body>
