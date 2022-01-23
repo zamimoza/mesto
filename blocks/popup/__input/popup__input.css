@@ -14,8 +14,8 @@
 
 .popup__input:focus {
     outline: none;
-    border: 2px solid rgb(0, 0, 0);  
-    border-radius: 2%; 
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 2%;
 }
 
 @media all and (max-width: 880px) {
