@@ -1,10 +1,11 @@
 .profile__top-line {
     display: flex;
-    align-items: center;
+    align-items: baseline;
 }
 
-@media all and (max-width: 880px) {
+@media all and (max-width: 940px) {
     .profile__top-line {
         justify-content: center;
+        position: relative;
     }
 }

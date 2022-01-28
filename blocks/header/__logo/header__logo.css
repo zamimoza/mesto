@@ -1,5 +1,6 @@
-@media all and (max-width: 620px) {
+@media all and (max-width: 618px) {
     .header__logo {
         padding: 0 0 0 27px;
+        width: 104px;
     }
 }

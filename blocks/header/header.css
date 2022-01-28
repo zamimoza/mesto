@@ -6,9 +6,9 @@
     box-sizing: border-box;
 }
 
-@media all and (max-width: 620px) {
+@media all and (max-width: 618px) {
     .header {
-        max-width: 620px;
+        max-width: 618px;
         min-height: 56px;
         margin: 0 -19px 42px -19px;
     }

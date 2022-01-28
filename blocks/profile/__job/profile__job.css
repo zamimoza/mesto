@@ -9,16 +9,21 @@
     margin: 16px 0 0 0;
 }
 
-@media all and (max-width: 940px) {
+@media all and (max-width: 618px) {
     .profile__job {
         font-size: 14px;
         line-height: 16.94px;
+    }
+}
+
+@media all and (max-width: 940px) {
+    .profile__job {
         text-align: center;
         margin: 0 0 36px 0;
     }
 }
 
-@media all and (min-width: 941px) and (max-width: 1050px) {
+@media all and (min-width: 619px) and (max-width: 1050px) {
     .profile__job {
         font-size: 16px;
         line-height: 19px;

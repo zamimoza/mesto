@@ -11,16 +11,21 @@
     max-width: 294px;
 }
 
-@media all and (max-width: 940px) {
+@media all and (max-width: 618px) {
     .profile__name {
         font-size: 27px;
         line-height: 32.68px;
+    }
+}
+
+@media all and (max-width: 940px) {
+    .profile__name {
         text-align: center;
         margin: 22px 0 14px 0;
     }
 }
 
-@media all and (min-width: 941px) and (max-width: 1050px) {
+@media all and (min-width: 619px) and (max-width: 1050px) {
     .profile__name {
         font-size: 36px;
         line-height: 40px;
