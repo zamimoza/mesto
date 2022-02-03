@@ -23,17 +23,3 @@
         height: 18px;
     }
 }
-
-@media all and (max-width: 940px) {
-    .profile__edit-button {
-        position: absolute;
-        top: 30px;
-        right: -30px;
-    }
-}
-
-@media all and (min-width: 619px) and (max-width: 940px) {
-    .profile__edit-button {
-        right: -40px;
-    }
-}

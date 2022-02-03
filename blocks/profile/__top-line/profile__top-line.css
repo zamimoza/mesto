@@ -6,6 +6,6 @@
 @media all and (max-width: 940px) {
     .profile__top-line {
         justify-content: center;
-        position: relative;
+        max-width: 282px;
     }
 }
