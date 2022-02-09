@@ -1,0 +1,17 @@
+.card__trash {
+    width: 18px;
+    height: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    opacity: 1;
+    cursor: pointer;
+    transition: all .2s; 
+}
+
+.card__trash:hover {
+    opacity: 0.5;
+}

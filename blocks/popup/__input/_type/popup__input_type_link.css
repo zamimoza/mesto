@@ -1,0 +1,9 @@
+.popup__input_type_link {
+    margin: 0 0 48px 0;
+}
+
+@media all and (max-width: 880px) {
+    .popup__input_type_link {
+        margin: 0 0 45px 0;
+    }
+}

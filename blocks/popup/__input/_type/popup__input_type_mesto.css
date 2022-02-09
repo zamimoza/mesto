@@ -1,0 +1,9 @@
+.popup__input_type_mesto {
+    margin: 54px 0 30px 0;
+}
+
+@media all and (max-width: 880px) {
+    .popup__input_type_mesto {
+        margin-top: 75px;
+    }
+}
